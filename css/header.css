@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Logo styling */
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #523106;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #523106;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
