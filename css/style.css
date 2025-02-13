@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Header styling */
 header {
@@ -37,4 +47,19 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #007bff;
+}
+
+main section {
+    border: 1px solid black;
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    text-align: center;
 }
